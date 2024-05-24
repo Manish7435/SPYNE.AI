@@ -1,0 +1,28 @@
+.timebar {
+  position: relative;
+  height: 4px;
+  width: 100%;
+  background-color: red;
+  margin-top: 40px;
+}
+
+.caption_marker {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.caption_marker.active {
+  background-color: cadetblue;
+}
+.video_container{
+  @media (max-width: 767px) {
+    margin-top: -40px;
+   }
+
+}

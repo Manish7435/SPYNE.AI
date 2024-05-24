@@ -1,0 +1,28 @@
+.caption_container{
+    margin-top: 10px;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .caption_btn{
+    background-color: #50C878;
+    border: none;
+     border-radius: 8px;
+     color: white;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"],
+input[type="text"]{
+  outline: none;
+  border: none;
+  background-color: black;
+  color:white;
+  @media (max-width: 767px) {
+    width: 80px;
+  }
+}
